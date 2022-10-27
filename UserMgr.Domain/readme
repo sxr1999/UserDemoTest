@@ -1,0 +1,5 @@
+Domain:实体类，事件，防腐层接口，仓储接口，领域服务
+
+Infrastructure: 实现类的配置，DbContext,防腐层接口实现，仓储接口实现
+
+WebAPI: Controller,事件（领域事件，集成事件）的响应类
