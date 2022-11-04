@@ -1,3 +1,3 @@
 namespace UserMgr.Domain.ValueObject;
 
-public record PhoneNumber(int RegionNumber,int Number);
+public record PhoneNumber(int RegionNumber,string Number);
