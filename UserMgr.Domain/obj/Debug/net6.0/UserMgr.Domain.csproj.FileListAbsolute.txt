@@ -1,0 +1,12 @@
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/bin/Debug/net6.0/UserMgr.Domain.deps.json
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/bin/Debug/net6.0/UserMgr.Domain.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/bin/Debug/net6.0/UserMgr.Domain.pdb
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.csproj.AssemblyReference.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.AssemblyInfoInputs.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.AssemblyInfo.cs
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.csproj.CoreCompileInputs.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/refint/UserMgr.Domain.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/UserMgr.Domain.pdb
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.Domain/obj/Debug/net6.0/ref/UserMgr.Domain.dll

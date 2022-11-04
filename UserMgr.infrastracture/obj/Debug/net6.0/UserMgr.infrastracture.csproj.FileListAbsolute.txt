@@ -1,0 +1,17 @@
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/bin/Debug/net6.0/UserMgr.infrastracture.deps.json
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/bin/Debug/net6.0/UserMgr.infrastracture.runtimeconfig.json
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/bin/Debug/net6.0/UserMgr.infrastracture.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/bin/Debug/net6.0/UserMgr.infrastracture.pdb
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/bin/Debug/net6.0/UserMgr.Domain.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/bin/Debug/net6.0/UserMgr.Domain.pdb
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.csproj.AssemblyReference.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.GeneratedMSBuildEditorConfig.editorconfig
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.AssemblyInfoInputs.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.AssemblyInfo.cs
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.csproj.CoreCompileInputs.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.csproj.CopyComplete
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/refint/UserMgr.infrastracture.dll
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.pdb
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/UserMgr.infrastracture.genruntimeconfig.cache
+/Users/shenxinran/RiderProjects/UserDemo/UserMgr.infrastracture/obj/Debug/net6.0/ref/UserMgr.infrastracture.dll

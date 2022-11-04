@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OnsGCTa8Tw82Jglvxkr40FqPcqSkuE4tptG5YkSR+po=",
+  "Source": "UserMgr.WebApi",
+  "BasePath": "_content/UserMgr.WebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
