@@ -12,4 +12,6 @@ public interface IUserRepository
 
     Task PublishEventAsync(UserAccessResultEvent _event);
 
+    Task AddNew(LoginByPhone model);
+
 }

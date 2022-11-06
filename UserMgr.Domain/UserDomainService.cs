@@ -28,6 +28,20 @@ public class UserDomainService
         user._userAccessFail.Fail();
     }
 
+    public async Task<AddNewResult> AddNew(LoginByPhone model)
+    {
+        AddNewResult result;
+        var user  = await _userRepository.FindOneAsync(model.PhoneNumber);
+        if (user == null)
+        {
+            await _userRepository.AddNew(model);
+            return AddNewResult.Success;
+        }
+        
+        return AddNewResult.Failure;
+        
+    }
+
 
     public async Task<UserAccessResult> CheckLoginAsync(PhoneNumber number, string Password)
     {

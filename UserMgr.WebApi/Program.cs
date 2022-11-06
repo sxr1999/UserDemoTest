@@ -1,5 +1,8 @@
+using System.Reflection;
+using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using UserMgr.Domain;
 using UserMgr.infrastracture;
 using UserMgr.WebApi;
 
@@ -18,6 +21,12 @@ builder.Services.AddDbContext<UserDbContext>(options =>
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddMediatR(Assembly.GetExecutingAssembly());
+builder.Services.AddScoped<UserDomainService>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ISmsCodeSender, MockSmsCodeSender>();
+//这里为了测试用内存
+builder.Services.AddDistributedMemoryCache();
 
 
 var app = builder.Build();

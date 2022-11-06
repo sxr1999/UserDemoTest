@@ -23,7 +23,7 @@ public record User
 
     public bool HasPassword()
     {
-        return !string.IsNullOrEmpty(passwordHash);
+        return string.IsNullOrEmpty(passwordHash);
     }
 
     public void ChangePassword(string value)

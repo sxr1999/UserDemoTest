@@ -20,7 +20,7 @@ public class UserRepository : IUserRepository
     }
     public async Task<User?> FindOneAsync(PhoneNumber phoneNumber)
     {
-        return await  _dbContext.Users.SingleOrDefaultAsync(x =>
+        return await  _dbContext.Users.Include(x=>x._userAccessFail).SingleOrDefaultAsync(x =>
             x.phoneNumber.Number == phoneNumber.Number 
             && x.phoneNumber.RegionNumber == phoneNumber.RegionNumber);
         //return Task.FromResult(result);
@@ -28,7 +28,7 @@ public class UserRepository : IUserRepository
 
     public async Task<User?> FindOneAsync(Guid UserId)
     {
-        return await  _dbContext.Users.SingleOrDefaultAsync(x=>x.Id==UserId);
+        return await  _dbContext.Users.Include(x=>x._userAccessFail).SingleOrDefaultAsync(x=>x.Id==UserId);
     }
 
     public async Task AddNewLoginHistoryAsync(PhoneNumber number, string message)
@@ -64,5 +64,13 @@ public class UserRepository : IUserRepository
     public Task PublishEventAsync(UserAccessResultEvent _event)
     {
        return _mediator.Publish(_event);
+    }
+
+    public async  Task AddNew(LoginByPhone model)
+    {
+        User user = new User(model.PhoneNumber);
+        user.ChangePassword(model.PassWord);
+        await _dbContext.Users.AddAsync(user);
+        
     }
 }
