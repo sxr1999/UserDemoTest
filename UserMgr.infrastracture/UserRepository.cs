@@ -43,7 +43,7 @@ public class UserRepository : IUserRepository
         _dbContext.UserLoginHistories.Add(new UserLoginHistory(userId, number, message));
     }
 
-    public  Task SavePhoneNumberCodeAsync(PhoneNumber number, string code)
+    public Task SavePhoneNumberCodeAsync(PhoneNumber number, string code)
     {
         string key = $"PhoneNumberCode_{number.RegionNumber}";
         
